@@ -39,7 +39,7 @@ function FaucetHint({ localProvider, targetNetwork, address }) {
             setFaucetClicked(true);
           }}
         >
-          💰 Grab funds from the faucet ⛽️
+          🟠 Get some faucet funds
         </Button>
       </div>
     );

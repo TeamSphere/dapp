@@ -16,7 +16,7 @@ export default function ExampleUI({
   readContracts,
   writeContracts,
 }) {
-  const [newPurpose, setNewPurpose] = useState("loading...");
+  const [newPurpose, setNewPurpose] = useState("This week's goal");
 
   return (
     <div>
@@ -24,8 +24,8 @@ export default function ExampleUI({
         ⚙️ Here is an example UI that displays and sets the purpose in your smart contract:
       */}
       <div style={{ border: "1px solid #cccccc", padding: 16, width: 400, margin: "auto", marginTop: 64 }}>
-        <h2>Example UI:</h2>
-        <h4>purpose: {purpose}</h4>
+        <h2>Invest</h2>
+        <h4>Invest in the Sphere {purpose}</h4>
         <Divider />
         <div style={{ margin: 8 }}>
           <Input

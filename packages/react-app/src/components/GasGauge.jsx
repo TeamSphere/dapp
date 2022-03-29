@@ -29,11 +29,8 @@ export default function GasGauge(props) {
       shape="round"
     >
       <span style={{ marginRight: 8 }}>
-        <span role="img" aria-label="fuelpump">
-          ⛽️
-        </span>
       </span>
-      {typeof props.gasPrice === "undefined" ? 0 : parseInt(props.gasPrice, 10) / 10 ** 9}g
+      {typeof props.gasPrice === "undefined" ? 0 : parseInt(props.gasPrice, 10) / 10 ** 9} gas
     </Button>
   );
 }
